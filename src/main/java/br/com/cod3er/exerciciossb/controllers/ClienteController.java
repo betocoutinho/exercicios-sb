@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping(path = "/clientes")
 public class ClienteController {
 
-    @GetMapping(path = "/qualquer")
+    @GetMapping(path = "/lista")
     public Cliente obterCliente(){
         return new Cliente(2, "Roberto", "98797454612");
     }
